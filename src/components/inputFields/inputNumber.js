@@ -9,7 +9,7 @@ const InputNumberField = ({ eachField, handleChange }) => {
                 name={eachField.name}
                 placeholder={eachField.placeholder}
                 defaultValue={eachField.defaultValue}
-                handleChange={handleChange(eachField.name)}
+                onChange={handleChange(eachField.name)}
             />
         </div>
     );

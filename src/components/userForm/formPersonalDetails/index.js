@@ -19,6 +19,12 @@ const FormPersonalDetails = ({ values, handleChange, nextStep, previousStep }) =
         },
         {
             type: "text",
+            name: "gender",
+            placeholder: "Gender",
+            defaultValue: values.gender
+        },
+        {
+            type: "text",
             name: "fatherName",
             placeholder: "Father Name",
             defaultValue: values.fatherName

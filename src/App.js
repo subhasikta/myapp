@@ -1,7 +1,9 @@
+import RegisterForm from "./pages/registerPage";
+
 function App() {
   return (
     <div className="App">
-      hi
+      <RegisterForm />
     </div>
   );
 }
